@@ -39,6 +39,6 @@ run_analysis <- function() {
   summary <- extract %>%
     group_by(Subject, Activity) %>%
     summarize_all(mean)
-  write.table(summary, "TidyData.txt")
+  write.table(summary, "TidyData.txt", row.names = FALSE)
   # View(summary)
 }
