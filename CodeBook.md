@@ -1,3 +1,5 @@
+# CodeBook.md
+Describes everything which was done in this project
 ##### Retrieves data from original dataset and loads them into R.
   - `features` <- features.txt : The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
   - `activities` <- activity_labels.txt : List of activities performed when the corresponding measurements were taken and its codes (labels)
